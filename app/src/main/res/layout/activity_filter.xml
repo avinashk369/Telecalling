@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FilterActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar"
+        android:layout_marginTop="@dimen/ten">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_state"
+                android:layout_marginLeft="@dimen/twenty"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?android:textColorHint"
+                />
+            <RelativeLayout
+                android:id="@+id/state_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twenty"
+                android:layout_marginRight="@dimen/twenty"
+                android:layout_marginTop="@dimen/ten"
+                android:layout_marginBottom="@dimen/ten">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/spinner_border"
+                    android:id="@+id/state_spinner"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="50dp"
+                    android:gravity="left|center_vertical"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/ten"
+                    android:paddingTop="@dimen/three"
+                    android:src="@drawable/drop_down" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_city"
+                android:layout_marginLeft="@dimen/twenty"
+                android:layout_marginTop="@dimen/ten"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?android:textColorHint"
+                />
+            <RelativeLayout
+                android:id="@+id/city_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/twenty"
+                android:layout_marginRight="@dimen/twenty"
+                android:layout_marginTop="@dimen/ten"
+                android:layout_marginBottom="@dimen/ten">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/spinner_border"
+                    android:id="@+id/city_spinner"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="50dp"
+                    android:gravity="left|center_vertical"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/ten"
+                    android:paddingTop="@dimen/three"
+                    android:src="@drawable/drop_down" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_interest"
+                android:layout_marginLeft="@dimen/twenty"
+                android:layout_marginTop="@dimen/ten"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="?android:textColorHint"
+                />
+            <RelativeLayout
+                android:id="@+id/interest_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/twenty"
+                android:layout_marginRight="@dimen/twenty"
+                android:layout_marginTop="@dimen/ten"
+                android:layout_marginBottom="@dimen/ten">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/spinner_border"
+                    android:id="@+id/interest_spinner"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="50dp"
+                    android:gravity="left|center_vertical"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/ten"
+                    android:paddingTop="@dimen/three"
+                    android:src="@drawable/drop_down" />
+
+            </RelativeLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/next_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/twenty"
+                    android:layout_marginRight="@dimen/twenty"
+                    android:layout_marginTop="@dimen/twenty"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textColorHint="@color/orange"
+                    android:textColor="@color/black"
+                    android:hint="@string/date"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:focusedByDefault="false"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <RelativeLayout
+                    android:id="@+id/buttonContinue"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_shape"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/twenty"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="@dimen/text_italic"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="7dp"
+        android:layout_margin="10dp"
+        card_view:cardElevation="7dp">
+
+    <LinearLayout
+        android:id="@+id/lbl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_marginBottom="@dimen/twenty"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/asap_italic"
+            android:textColor="@color/red"
+            android:layout_margin="@dimen/twenty"
+            android:text="@string/unauthorised"
+            android:visibility="gone"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_wdgt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/twenty"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:hint="@string/user_name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_wdgt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/edittextpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/twenty"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty"
+            android:text="@string/remmeber"
+            android:buttonTint="@color/orange"
+            android:fontFamily="@font/montserrat_regular"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <RelativeLayout
+                android:id="@+id/buttonContinue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/round_shape"
+                android:textColor="@color/yellow_dark"
+                android:layout_margin="@dimen/twenty"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="@dimen/text_italic"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#4E342E</color>
+    <color name="colorPrimary">#FFFF00</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#f10e3f</color>
+    <color name="white">#FFFFFF</color><!-- #8cFFFFFF -->
+    <color name="white_trans">#20263e</color>
+    <color name="border_color">#00a744</color>
+    <color name="black">#2e3d43</color><!-- #8cFFFFFF -->
+    <color name="black_dark">#B0D8EC</color><!-- #8cFFFFFF -->
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#2A61F7</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#df531c</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#119b96</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#403838</item>
+    <item name="border_bottom" type="color">#F8F3F1F1</item>
+    <item name="yellow" type="color">#fcec36</item>
+    <item name="yellow_dark" type="color">#f8d42d</item>
+    <item name="green_dark" type="color">#f9f9f9</item>
+    <item name="green_light" type="color">#ffffff</item>
+    <item name="faded" type="color">#E2EBEBEB</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+
+</resources>

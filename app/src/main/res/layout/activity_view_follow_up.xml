@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.ViewFollowUp">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/followup_detail"
+        android:layout_below="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ten"
+        android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/customer_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="3dp"
+                card_view:cardElevation="7dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:id="@+id/customer_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="3dp"
+                card_view:cardElevation="7dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:fontFamily="@font/montserrat_regular"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/follow"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_below="@+id/followup_detail"
+        android:layout_marginTop="@dimen/ten"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_shape"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/follow"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/twenty_five"
+                android:fontFamily="@font/asap_italic"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/table_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:layout_below="@+id/follow"
+        android:layout_marginTop="@dimen/ten"
+        android:background="@color/yellow_dark"
+        android:gravity="center_vertical"
+        android:stretchColumns="*">
+
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/ten"
+            android:layout_marginLeft="@dimen/ten">
+
+            <TextView
+                android:text="Store name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"/>
+            <TextView
+                android:text="Store address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"/>
+            <TextView
+                android:text="Visit time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"/>
+            <TextView
+                android:text="image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+
+    </TableLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/uncleared_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/table_header"/>
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:fontFamily="@font/montserrat_regular"
+        android:visibility="gone"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="@dimen/eighteen"
+        android:layout_below="@+id/table_header"/>
+
+</RelativeLayout>

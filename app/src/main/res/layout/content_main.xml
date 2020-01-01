@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <View
+        android:id="@+id/context_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/follow_caption"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:background="@color/yellow_dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple"
+            android:layout_marginLeft="@dimen/ten"
+            android:textSize="@dimen/eighteen"
+            android:fontFamily="@font/asap_italic"
+            android:text="@string/top_follow_list"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/followup_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/radius"
+        android:layout_below="@+id/follow_caption"
+        android:paddingStart="@dimen/ten"
+        android:paddingEnd="@dimen/ten"
+        android:clipToPadding="false"/>
+
+    <RelativeLayout
+        android:id="@+id/inquiry_caption"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/followup_list"
+        android:layout_marginTop="@dimen/twenty"
+        android:background="@color/orange">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/ten"
+            android:textSize="@dimen/eighteen"
+            android:fontFamily="@font/asap_italic"
+            android:text="@string/top_inquiry_list"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/inquiry_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/radius"
+        android:layout_below="@+id/inquiry_caption"
+        android:paddingStart="@dimen/ten"
+        android:paddingEnd="@dimen/ten"
+        android:clipToPadding="false"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        android:theme="@style/Bottom_Navigation"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

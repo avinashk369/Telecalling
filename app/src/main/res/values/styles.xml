@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/darkred</item>
+        <item name="android:textColor">@color/darkred</item>
+        <!-- <item name="navigationIcon">@drawable/arrow_left</item>-->
+
+        <!-- Edit Text Floating hint-->
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="colorControlHighlight">@color/orange</item>
+        <!-- /Edit Text Floating hint-->
+    </style>
+
+    <!-- Blank Splash Screen Threme -->
+
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.SplashTheme" parent="Theme">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <!-- change colorprimarydark to reflect status bar color -->
+    </style>
+
+    <style name="Theme.SplashLoad" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- End Of Blank Screen -->
+
+
+    <!-- Edit Text Floating hint-->
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/darkred</item>
+        <item name="android:textColor">@color/darkred</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+
+    </style>
+
+    <style name="Theme.SplashTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SplashTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SplashTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- /Edit Text Floating hint-->
+
+    <style name="MyToolbarTheme"
+        parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Mytoolbar" parent="@style/ThemeOverlay.AppCompat.Dark">
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/darkred</item>
+        <item name="android:textColor">@color/darkred</item>
+
+        <!-- change textColorPrimary to reflect toolbar text color -->
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+    </style>
+
+    <!-- change drawerIcon to reflect drawer icon color -->
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/orange</item>
+    </style>
+
+    <style name="Bottom_Navigation" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="android:textColorPrimary">@color/yellow_dark</item>
+        <item name="android:textColorSecondary">@color/orange</item>
+    </style>
+    <style name="Navigation" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:textColorPrimary">@color/darkred</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="colorControlActivated">@color/faded</item>
+        <item name="colorControlHighlight">@color/faded</item>
+    </style>
+
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/orange</item>
+    </style>
+
+    <style name="toolbar_icon_text">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textSize">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/toolbar_background</item>
+    </style>
+
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/white_trans</item>
+    </style>
+
+</resources>

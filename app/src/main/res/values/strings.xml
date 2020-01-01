@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Telecalling Sales &amp; Marketing </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="report">Report</string>
+    <string name="team">My team</string>
+    <string name="wallet">Wallet</string>
+    <string name="tools">Tools</string>
+    <string name="user_name">User name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_lbl">Forgot Password</string>
+    <string name="new_account">Don\'t have an account?</string>
+    <string name="new_account_lnk">Create new account</string>
+    <string name="sponsor_id">Sponsor ID</string>
+    <string name="sponsor_id_caps">SPONSOR ID</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign up now!</string>
+    <string name="sign_up_btn">Sign up</string>
+    <string name="already_account">Already Have Account?</string>
+    <string name="remmeber">Remember me</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">Name</string>
+    <string name="first_name_lbl">Name</string>
+    <string name="sign_up_header">Create your new account</string>
+    <string name="otp">Verify OTP</string>
+    <string name="otp_hint">6 digits OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="condition">I accept</string>
+    <string name="terms">Terms and conditions</string>
+    <string name="sign_in">Sign in now!</string>
+    <string name="sign_in_lbl">Sign in</string>
+    <string name="otp_verification">Verify through OTP</string>
+    <string name="Rs">\u20B9</string>
+    <string name="rs">\u20A8</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="uncleared_balance">Un cleared balance</string>
+    <string name="unclear_balance">Unclear balance</string>
+    <string name="member">Members</string>
+    <string name="up_member">Up-coming members</string>
+    <string name="total_earning">Total earning</string>
+    <string name="upcoming_events">Upcoming events</string>
+    <string name="event">Event</string>
+    <string name="profile">My account</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="current_password">***********</string>
+    <string name="unauthorised">Account is not verified. Please contact Admin</string>
+    <string name="unauthorised_access">Invalid credentials</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signout">Log out</string>
+    <string name="change_password_message">Your password has been changed successfully</string>
+    <string name="thank_you">Welcome to Ayubless! Thank you for joining.</string>
+    <string name="pb_balance">PB wallet</string>
+    <string name="total_member">Total member</string>
+    <string name="active_member">Active member</string>
+    <string name="non_active_member">Non active member</string>
+    <string name="activation">Activation</string>
+    <string name="welcome_letter">Welcome letter</string>
+    <string name="action_add">Add</string>
+    <string name="add_member">New registration</string>
+    <string name="news_events"><![CDATA[News & Events]]></string>
+    <string name="account_activation">Account activation</string>
+    <string name="kyc">Upload KYC</string>
+    <string name="deposit_fund">Deposit fund</string>
+    <string name="withdraw_fund">Withdraw fund</string>
+    <string name="transfer_fund">Transfer fund</string>
+    <string name="help">Help</string>
+    <string name="income_report">My income</string>
+    <string name="my_income">Income report</string>
+    <string name="add">Add</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="package_selection">Package</string>
+    <string name="pay">Pay</string>
+    <string name="inr">\u20B9 Enter amount</string>
+    <string name="doj">Date of joining</string>
+    <string name="login_id">Login ID</string>
+    <string name="level_view_member">Level view member</string>
+    <string name="account_statement">Account statement</string>
+    <string name="dob">Date of birth</string>
+    <string name="alter_mob">Alternate mobile number</string>
+    <string name="bank">Bank name</string>
+    <string name="ac_holder">Account holder name</string>
+    <string name="account_no">Account no</string>
+    <string name="ifsc">IFSC code</string>
+    <string name="pan">PAN no</string>
+    <string name="adahr_no">ADHAR NO</string>
+    <string name="package_product">Package product</string>
+    <string name="date">Date</string>
+    <string name="credit">Credit</string>
+    <string name="debit">Debit</string>
+    <string name="remarks">Remarks</string>
+    <string name="father_name">Father name/Husband name</string>
+    <string name="address">Address</string>
+    <string name="pincode">Pin code</string>
+    <string name="email">Email</string>
+    <string name="sponsor_name">Sponsor name</string>
+    <string name="level">Level</string>
+    <string name="username">User name</string>
+    <string name="fullname">Full name</string>
+    <string name="phone">Phone number</string>
+    <string name="datejoin">Date of joining</string>
+    <string name="pack">Package name</string>
+    <string name="pack_amt">Package amount</string>
+    <string name="no_data">No data available</string>
+    <string name="c_account_no">Confirm account number</string>
+    <string name="userid">User ID</string>
+    <string name="activationDate">Activation date</string>
+    <string name="activationpackage">Activation package</string>
+    <string name="email_dash">E-mail</string>
+    <string name="vedios">Videos</string>
+    <string name="how_it_works">How it works ?</string>
+    <string name="need_help">Need help</string>
+    <string name="user_registraion">Create new account</string>
+    <string name="help_number_lbl">Customer Care No.</string>
+    <string name="help_numbers">+91 9899299009</string>
+    <string name="sno">S.No.</string>
+    <string name="activate_message">You are already activated!</string>
+    <string name="msg_token_fmt">Token</string>
+
+    <string-array name="phone_call_option">
+        <item>Follow up and remark</item>
+        <item>Not interested and remark</item>
+        <item>Not reachable and follow up</item>
+        <item>Ringing not pick-up and follow up</item>
+    </string-array>
+
+    <string-array name="inquiry_updates">
+        <item>Inquiry to sales</item>
+        <item>Inquiry to walk in</item>
+        <item>Walk in to sales</item>
+    </string-array>
+
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="top_follow_list">Top follow up list</string>
+    <string name="top_inquiry_list">Top inquiry list</string>
+    <string name="add_inquiry">Add Inquiry</string>
+    <string name="followup_list">Follow up</string>
+    <string name="inquiry_list">Inquiry list</string>
+    <string name="logout">Logout</string>
+    <string name="india">India</string>
+    <string name="company_name">Company name</string>
+    <string name="country">Country</string>
+    <string name="select_state">Select state</string>
+    <string name="select_city">Select city</string>
+    <string name="select_interest">Select interest</string>
+    <string name="data_status">Data status</string>
+    <string name="follow">Follow</string>
+    <string name="add_remark">Add remark</string>
+    <string name="phone_call_option">Phone call option</string>
+    <string name="time">Time</string>
+    <string name="interest_level">Interest level</string>
+    <string name="inquiry_update">Inquiry update</string>
+    <string name="select_staff">Select staff</string>
+    <string name="filter">Filter</string>
+    <string name="inquiry_detail">Inquiry details</string>
+    <string name="number">Mobile</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="data_name">Data name</string>
+    <string name="last_remark">Last remark</string>
+    <string name="followup_date">Next followup date</string>
+    <string name="staff_assigned">Staff assigned</string>
+    <string name="staff">Staff</string>
+    <string name="menu_message">Send whatsapp</string>
+    <string name="call_records">Call records</string>
+    <string name="incoming">In</string>
+    <string name="outgoing">Out</string>
+    <string name="list">List</string>
+    <string name="missed">Missed</string>
+
+</resources>

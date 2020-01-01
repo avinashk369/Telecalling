@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/imageDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/textDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="9pt"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_toRightOf="@+id/imageDialog"/>
+
+    <Button
+        android:id="@+id/declineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Close "
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imageDialog"
+        android:background="@color/white"
+        />
+
+</RelativeLayout>
